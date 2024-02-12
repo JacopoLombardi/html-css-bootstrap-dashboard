@@ -109,7 +109,6 @@ img{
    height: auto;
 }
 
-
 ._bg_faded_black{
    background: rgba(0, 0, 0, 0.176);
    border-radius: 30px;
@@ -117,10 +116,24 @@ img{
 }
 
 
+/* PROSSIME-CLASSI */
+#prossime-classi{
+   margin-left: 65px;
+}
 
+#prossime-classi .container-fluid{
+   height: auto;
+}
 
+/* TABLE */
+th{
+   font-weight: 400;
+}
 
-
+#prossime-classi table img{
+   width: 25px;
+   border-radius: 50%;
+}
 
 
 
@@ -140,6 +153,9 @@ img{
    /* INIZIO MAIN */
 
    /* BANNER-BLU */
+   #banner-blu ._new_student{
+      order: 1;
+   }
 
 
 
@@ -152,7 +168,6 @@ img{
 
 
 
-
 @media(min-width:992px){
 
    /* SPAZIO PER LE APPARIZIONI */
@@ -160,7 +175,7 @@ img{
       display: block !important;
    }
 
-   
+
 
    /* MENU-FIXED */
    #menu-fixed ._box_img ._mobile{
