@@ -31,7 +31,7 @@
                <div class="d-flex  align-items-center  justify-content-between">
                   <div class="_box_img  text-center">
                      <img class="_mobile" src="img/mobile-logo.png" alt="">
-                     <img class="_desk  _hidden_mobile  me-3  d-none" src="img/logo.svg" alt="">
+                     <img class="_desk  _hidden_mobile_and_tablet  me-3  d-none" src="img/logo.svg" alt="">
                   </div>
 
                   <div class="_box_input  d-flex  justify-content-cente">
@@ -42,9 +42,9 @@
                   </div>
 
                   <div class="_icon  d-flex">
-                     <i class="fs-4  ms-4  _hidden_mobile  fa-solid fa-bars  d-none"></i>
-                     <i class="fs-4  ms-4  me-4  _hidden_mobile  fa-solid fa-circle-question  d-none"></i>
-                     <i class="fs-4  me-4  _hidden_mobile  fa-solid fa-ellipsis-vertical  d-none"></i>
+                     <i class="fs-4  ms-4  _hidden_mobile_and_tablet  fa-solid fa-bars  d-none"></i>
+                     <i class="fs-4  ms-4  me-4  _hidden_mobile_and_tablet  fa-solid fa-circle-question  d-none"></i>
+                     <i class="fs-4  me-4  _hidden_mobile_and_tablet  fa-solid fa-ellipsis-vertical  d-none"></i>
                      <i class="_bell  fs-4  me-4  fa-solid fa-bell"></i>
                   </div>
                </div>
@@ -55,33 +55,31 @@
       <!-- SIDE-NAV -->
       <section id="side-nav" class="d-flex  justify-content-center  position-fixed">
          <div class="_container  text-white">
-
             <div class="_icon  d-flex  flex-column  justify-content-between  mt-4  h-100">
 
                <div class="_home_stats_signal  d-flex  flex-column  align-items-center">
                   <div class="d-flex">
                      <i class="fs-4  mx-3  fa-solid fa-house"></i>
-                     <p class="fs-5  _hidden_mobile  d-none">Home</p>
+                     <p class="fs-5  _hidden_mobile_and_tablet  d-none">Home</p>
                   </div>
 
                   <div class="d-flex  my-4">
                      <i class="fs-4  mx-3  fa-solid fa-chart-simple"></i>
-                     <p class="fs-5  _hidden_mobile  d-none">Stats</p>
+                     <p class="fs-5  _hidden_mobile_and_tablet  d-none">Stats</p>
                   </div>
 
                   <div class="d-flex">
                      <i class="fs-5  mx-3  fa-solid fa-signal"></i>
-                     <p class="fs-5  _hidden_mobile  d-none">Signals</p>
+                     <p class="fs-5  _hidden_mobile_and_tablet  d-none">Signals</p>
                   </div>
                </div>
 
                <div class="d-flex  justify-content-center">
                   <i class="_setting  fs-4  fa-solid fa-gear"></i>
-                  <p class="fs-5  mx-3  _hidden_mobile  d-none">Admin</p>
+                  <p class="fs-5  mx-3  _hidden_mobile_and_tablet  d-none">Admin</p>
                </div>
 
             </div>
-
          </div>
       </section>
 
@@ -93,26 +91,26 @@
    <!-- INIZIO MAIN -->
    <main>
       <!-- BANNER-BLU -->
-      <section id="banner-blu">
-         <div class="container-fluid  _debug">
+      <section id="banner-blu" class="mb-4">
+         <div class="container-fluid">
 
             <div class="row  d-flex  flex-column  flex-md-row  text-white  pt-4">
-               <div class="_new_student  col-8  col-md-4  col-lg-3  _debug">
+               <div class="_new_student  col-8  col-md-4  col-lg-3">
                   <p>Nuovo Studente</p>
                </div>
 
-               <div class="col-8  col-md-4  col-lg-6  _debug  d-flex  align-items-center  flex-wrap  pb-4">
+               <div class="col-8  col-md-4  col-lg-6  d-flex  align-items-center  flex-wrap  pb-4">
                   <h2>Boolean</h2>
                   <p class="mb-2  ms-3  mb-0  _bg_faded_black">Piano Blaze</p>
                   <p class="mb-2  ms-2  _bg_faded_black">3 app</p>
                   <i class="mb-2  mx-2  fa-solid fa-angles-right"></i>
                   <p class="mb-2  _bg_faded_black  _plus">+</p>
-                  <p class="mb-2  ms-2  _bg_faded_black  _hidden_mobile  d-none">Boolean mobile app</p>
-                  <p class="mb-2  ms-2  _bg_faded_black  _hidden_mobile  d-none">Boolean web app</p>
-                  <p class="mb-2  ms-2  _bg_faded_black  _hidden_mobile  d-none">Boolean blog app</p>
+                  <p class="mb-2  ms-2  _bg_faded_black  _hidden_mobile_and_tablet  d-none">Boolean mobile app</p>
+                  <p class="mb-2  ms-2  _bg_faded_black  _hidden_mobile_and_tablet  d-none">Boolean web app</p>
+                  <p class="mb-2  ms-2  _bg_faded_black  _hidden_mobile_and_tablet  d-none">Boolean blog app</p>
                </div>
 
-               <div class="col-8  col-md-4  col-lg-3  _debug">
+               <div class="col-8  col-md-4  col-lg-3">
                   <p class="mb-0">Studenti online negli ultimi 30 minuti</p>
                   <span class="fs-1">125</span>
                </div>
@@ -124,65 +122,99 @@
 
       <!-- PROSSIME-CLASSI -->
       <section id="prossime-classi">
-            <div class="container-fluid  _debug">
+         <div class="container-fluid">
 
-               <div class="row  d-flex  flex-column">
+            <div class="custom_container  d-flex  justify-content-center">
+               <div class="row  d-flex  flex-column  border  rounded-2  w-100">
 
-                  <div class="col  _debug">
+                  <div class="col  bg-light border-bottom">
                      <h1 class="fs-2">Prossime classi</h1>
                   </div> 
 
                   <!-- TABLE -->
-                  <div class="col  _debug">
+                  <div class="col">
                      <table class="table">
+                        <!-- T_HEAD -->
                         <thead>
-                          <tr>
-                            <th>Nome</th>
-                            <th>Data inizio</th>
-                            <th>ROI</th>
-                            <th>Sato</th>
-                            <th>Azioni</th>
-                          </tr>
+                           <tr>
+                              <th>Nome</th>
+                              <th>Data inizio</th>
+                              <th>ROI</th>
+                              <th>Stato</th>
+                              <th>Azioni</th>
+                           </tr>
                         </thead>
-
-
-
+                        <!-- T_BODY -->
                         <tbody>
-                          <tr>
-                            <td><img src="img/class-avatar.jpg" alt=""> Classe 75</td>
-                            <td>15 Feb 2021</td>
-                            <td>20%</td>
-                            <td></td>
-                            <td></td>
-                          </tr>
+                           <tr>
+                              <td><img src="img/class-avatar.jpg" alt=""> Classe 75</td>
+                              <td>15 Feb 2021</td>
+                              <td>20%</td>
+                              <td><span class="badge text-bg-success">Done</span></td>
+                              <td class="_icon">
+                                 <i class="fa-solid fa-pencil  rounded-2  p-2"></i>
+                                 <i class="fa-solid fa-trash  rounded-2  p-2"></i>
+                              </td>
+                           </tr>
 
-                          <tr>
-                            <td><img src="img/class-avatar.jpg" alt=""></td>
-                            <td>Moe</td>
-                            <td>20%</td>
-                            <td></td>
-                            <td></td>
-                          </tr>
+                           <tr>
+                              <td><img src="img/class-avatar.jpg" alt=""> Classe 76</td>
+                              <td>16 Feb 2021</td>
+                              <td>20%</td>
+                              <td><span class="badge text-bg-success">Done</span></td>
+                              <td class="_icon">
+                                 <i class="fa-solid fa-pencil  rounded-2  p-2"></i>
+                                 <i class="fa-solid fa-trash  rounded-2  p-2"></i>
+                              </td>
+                           </tr>
 
-                          <tr>
-                            <td><img src="img/class-avatar.jpg" alt=""></td>
-                            <td>Dooley</td>
-                            <td>20%</td>
-                            <td></td>
-                            <td></td>
-                          </tr>
+                           <tr>
+                              <td><img src="img/class-avatar.jpg" alt=""> Classe 77</td>
+                              <td>17 Feb 2021</td>
+                              <td>20%</td>
+                              <td><span class="badge text-bg-warning  text-white">process</span></td>
+                              <td class="_icon">
+                                 <i class="fa-solid fa-pencil  rounded-2  p-2"></i>
+                                 <i class="fa-solid fa-trash  rounded-2  p-2"></i>
+                              </td>
+                           </tr>
+
+                           <tr>
+                              <td><img src="img/class-avatar.jpg" alt=""> Classe 78</td>
+                              <td>18 Feb 2021</td>
+                              <td>20%</td>
+                              <td><span class="badge text-bg-success  text-white">Done</span></td>
+                              <td class="_icon">
+                                 <i class="fa-solid fa-pencil  rounded-2  p-2"></i>
+                                 <i class="fa-solid fa-trash  rounded-2  p-2"></i>
+                              </td>
+                           </tr>
+
+                           <tr>
+                              <td><img src="img/class-avatar.jpg" alt=""> Classe 79</td>
+                              <td>19 Feb 2021</td>
+                              <td>20%</td>
+                              <td><span class="badge text-bg-danger">failed</span></td>
+                              <td class="_icon">
+                                 <i class="fa-solid fa-pencil  rounded-2  p-2"></i>
+                                 <i class="fa-solid fa-trash  rounded-2  p-2"></i>
+                              </td>
+                           </tr>
+
                         </tbody>
-                      </table>
-
+                     </table>
                   </div>
-
-
 
                </div>
             </div>
 
+         </div>
+
       </section>
    
+
+
+
 
 
 

@@ -121,12 +121,16 @@ img{
    margin-left: 65px;
 }
 
+#prossime-classi .custom_container{
+   width: 99%
+}
+
 #prossime-classi .container-fluid{
    height: auto;
 }
 
 /* TABLE */
-th{
+#prossime-classi table th{
    font-weight: 400;
 }
 
@@ -134,6 +138,17 @@ th{
    width: 25px;
    border-radius: 50%;
 }
+
+#prossime-classi ._icon i{
+   color: rgb(115, 115, 115);
+   border: 2px solid rgb(115, 115, 115);
+}
+
+
+
+
+
+
 
 
 
@@ -149,6 +164,13 @@ th{
   -----------*/
 
   @media(min-width:768px){
+
+   /* UTILITY PER LE APPARIZIONI SU TABLET*/
+   ._hidden_mobile{
+      display: block !important;
+   }
+
+
 
    /* INIZIO MAIN */
 
@@ -170,8 +192,8 @@ th{
 
 @media(min-width:992px){
 
-   /* SPAZIO PER LE APPARIZIONI */
-   ._hidden_mobile{
+   /* UTILITY PER LE APPARIZIONI SU DESK*/
+   ._hidden_mobile_and_tablet{
       display: block !important;
    }
 
@@ -222,7 +244,10 @@ th{
       display: none;
    }
 
-
+   /* PROSSIME-CLASSI */
+   #prossime-classi{
+      margin-left: 150px;
+   }
 
 
 
