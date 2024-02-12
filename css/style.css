@@ -1,3 +1,6 @@
+[class^="container"]{
+   border: 1px solid;
+}
 
 
 
@@ -5,8 +8,74 @@
 
 
 
-
-
+/* UTILITY */
 body{
    font-family: 'Roboto', sans-serif;
 }
+
+img{
+   max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INIZIO HEADER */
+#menu-fixed{
+   height: 70px;
+   background-color: #f8f9fa;
+   border: 1px solid;
+}
+
+#menu-fixed .container-fluid{
+   background-color: white;
+   padding: 4px 0;
+}
+
+#menu-fixed img{
+   max-height: 40px;
+}
+
+#menu-fixed ._box_input{
+   width: 75%;
+   border-radius: 6px;
+   background-color: #e5e5e5;
+}
+
+#menu-fixed ._box_input i{
+   margin-left: 20px;
+}
+
+#menu-fixed input{
+   width: 80%;
+   padding: 10px;
+   border: none;
+   background-color: #e5e5e5;
+}
+
+
+/* INIZIO SIDE_NAV */
+
+
+
+
+
+
+
+
+
+
+
