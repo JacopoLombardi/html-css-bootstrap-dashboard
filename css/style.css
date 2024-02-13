@@ -1,15 +1,11 @@
-[class^="container"]{
-   /* border: 1px solid; */
-}
-
-
-
 
 
 /* UTILITY */
 body{
    font-family: 'Roboto', sans-serif;
 }
+
+
 
 img{
    max-width: 100%;
@@ -150,6 +146,11 @@ img{
 }
 
 
+/* TO-DO & GRAPH */
+#to-do{
+   margin-left: 65px;
+}
+
 
 
 
@@ -273,6 +274,10 @@ img{
 
 
 
+   /* TO-DO */
+   #to-do{
+      margin-left: 150px;
+   }
 
 
 
