@@ -5,8 +5,6 @@ body{
    font-family: 'Roboto', sans-serif;
 }
 
-
-
 img{
    max-width: 100%;
 }
@@ -14,17 +12,6 @@ img{
 p{
    margin-bottom: 0 !important;
 }
-
-
-
-
-._debug{
-   border: 1px solid black;
-}
-
-
-
-
 
 
 
@@ -39,7 +26,6 @@ p{
    width: 100%;
    height: 70px;
    background-color: #f8f9fa;
-
 }
 
 #menu-fixed .container-fluid{
@@ -57,7 +43,6 @@ p{
 }
 
 #menu-fixed ._box_input{
-   width: 75%;
    border-radius: 6px;
    background-color: #e5e5e5;
 }
@@ -113,6 +98,11 @@ p{
    border-radius: 30px;
    padding: 0 8px;
 }
+
+.offcanvas{
+   width: 100% !important;
+}
+
 
 
 /* PROSSIME-CLASSI & F.A.Q. */
@@ -185,13 +175,14 @@ table tbody td:nth-child(3){
       display: table-cell;
    }
 
-
   }
 
 
 
 
-@media(min-width:992px){
+
+
+   @media(min-width:992px){
 
    /* UTILITY PER LE APPARIZIONI SU DESK*/
    ._hidden_mobile_and_tablet{
@@ -250,17 +241,17 @@ table tbody td:nth-child(3){
       display: none;
    }
 
+   .offcanvas{
+      width: 60% !important;
+   }
+
+
    /* PROSSIME-CLASSI */
    #main-dashboard{
       margin-left: 150px;
    }
 
-
-
-
-
-
-
+   
 }
 
 

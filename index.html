@@ -26,7 +26,7 @@
    <header>
       <!-- MENU-FIXED -->
       <section id="menu-fixed" class="d-flex  align-items-center  position-fixed  z-1">
-         <div class="container-fluid">  
+         <div class="container-fluid  py-0">  
 
                <div class="d-flex  align-items-center  justify-content-between">
                   <div class="_box_img  text-center">
@@ -95,9 +95,95 @@
          <div class="container-fluid">
 
             <div class="row  d-flex  flex-column  flex-md-row  text-white  pt-4">
-               <div class="_new_student  col-8  col-md-4  col-lg-3">
+               <div class="_new_student  d-flex  align-items-center  col-8  col-md-4  col-lg-3  mb-3  h-50">
                   <p>Nuovo Studente</p>
+                  
+                  <!-- OFFCANVAS BTN -->
+                  <button class="btn btn-primary  border  ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+
+                  <!-- INSIDE OFFCANVAS -->
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                     <div class="offcanvas-header">
+                        <h4 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                     </div>
+
+                     <div class="offcanvas-body">
+                        <form class="row g-3">
+
+                           <div class="col-md-6">
+                              <label for="inputName" class="form-label">Nome</label>
+                              <input type="text" class="form-control" id="">
+                           </div>
+
+                           <div class="col-md-6">
+                              <label for="inputSurname" class="form-label">Cognome</label>
+                              <input type="text" class="form-control" id="">
+                           </div>
+
+                           <div class="col-md-6">
+                              <label for="inputEmail4" class="form-label">Email</label>
+                              <div class="d-flex  align-items-center">
+                                 <i class="fa-solid fa-at"></i>
+                                 <input type="email" class="form-control" id="">
+                              </div>
+                           </div>
+
+                           <div class="col-md-6">
+                              <label for="inputPassword4" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="">
+                           </div>
+
+                           <div class="col-12">
+                              <label for="inputAddress" class="form-label">Indirizzo</label>
+                              <input type="text" class="form-control" id="">
+                           </div>
+                     
+                           <div class="col-md-6">
+                              <label for="inputCity" class="form-label">Città</label>
+                              <input type="text" class="form-control" id="">
+                           </div>
+
+                           <div class="col-md-4">
+                              <label for="inputState" class="form-label">State</label>
+                              <select id="inputState" class="form-select">
+                                 <option selected>Scegli...</option>
+                                 <option>Italia</option>
+                                 <option>Germania</option>
+                                 <option>Spagna</option>
+                                 <option>Francia</option>
+                              </select>
+                           </div>
+
+                           <div class="col-md-2">
+                              <label for="inputZip" class="form-label">CAP</label>
+                              <input type="text" class="form-control" id="">
+                           </div>
+
+                           <div>
+                              <label for="formFilelg" class="form-label">Foto</label>
+                              <input class="form-control form-control-md" id="formFileLg" type="file">
+                              </div>
+
+                           <div class="col-12  mt-4 ">
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" id="gridCheck">
+                                 label class="form-check-label" for="gridCheck">Seleziona per proseguire</label>
+                              </div>
+                           </div>
+
+                           <div class="col-12">
+                              <button type="submit" class="btn btn-primary">Salva</button>
+                              <button type="submit" class="btn btn-warning">Salva</button>
+                           </div>
+                           
+                        </form>
+                     </div>
+
+                  </div>
+                  <!-- FINE INSIDE OFFCANVAS -->
                </div>
+
 
                <div class="col-8  col-md-4  col-lg-6  d-flex  align-items-center  flex-wrap  pb-4">
                   <h2>Boolean</h2>
@@ -110,7 +196,7 @@
                   <p class="mb-2  ms-2  _bg_faded_black  _hidden_mobile_and_tablet  d-none">Boolean blog app</p>
                </div>
 
-               <div class="col-8  col-md-4  col-lg-3">
+               <div class="col-8  col-md-4  col-lg-3  mb-3">
                   <p class="mb-0">Studenti online negli ultimi 30 minuti</p>
                   <span class="fs-1">125</span>
                </div>
@@ -317,7 +403,7 @@
                         </li>
 
                      </ul>
-
+                     
                   </div>
          
 
