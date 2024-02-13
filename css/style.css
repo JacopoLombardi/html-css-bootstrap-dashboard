@@ -11,6 +11,9 @@ img{
    max-width: 100%;
 }
 
+p{
+   margin-bottom: 0 !important;
+}
 
 
 
@@ -113,45 +116,35 @@ img{
 
 
 /* PROSSIME-CLASSI & F.A.Q. */
-#prossime-classi{
+#main-dashboard{
    margin-left: 65px;
 }
 
-
-
-#prossime-classi .container-fluid{
+#main-dashboard .container-fluid{
    height: auto;
 }
 
 /* TABLE */
-#prossime-classi table th{
+#main-dashboard table th{
    font-weight: 400;
 }
 
-#prossime-classi table img{
+#main-dashboard table img{
    width: 25px;
    border-radius: 50%;
 }
 
-#prossime-classi ._icon i{
+#main-dashboard ._icon i{
    color: rgb(115, 115, 115);
    border: 2px solid rgb(115, 115, 115);
 }
 
-#prossime-classi table thead th:nth-child(2),
-#prossime-classi table tbody td:nth-child(2),
-#prossime-classi table thead th:nth-child(3),
-#prossime-classi table tbody td:nth-child(3){
+table thead th:nth-child(2),
+table tbody td:nth-child(2),
+table thead th:nth-child(3),
+table tbody td:nth-child(3){
    display: none;
 }
-
-
-/* TO-DO & GRAPH */
-#to-do{
-   margin-left: 65px;
-}
-
-
 
 
 
@@ -187,23 +180,13 @@ img{
 
    /* PROSSIME-CLASSI */
    /* TABLE */
-   #prossime-classi table thead tr th:nth-child(3),
-   #prossime-classi table tbody tr td:nth-child(3){
+   table thead tr th:nth-child(3),
+   table tbody tr td:nth-child(3){
       display: table-cell;
    }
 
 
-
-
-
-
-
-
   }
-
-
-
-
 
 
 
@@ -215,8 +198,8 @@ img{
       display: block !important;
    }
 
-   #prossime-classi table thead tr th:nth-child(2),
-   #prossime-classi table tbody tr td:nth-child(2){
+   table thead tr th:nth-child(2),
+   table tbody tr td:nth-child(2){
       display: table-cell;
    }
 
@@ -268,16 +251,12 @@ img{
    }
 
    /* PROSSIME-CLASSI */
-   #prossime-classi{
+   #main-dashboard{
       margin-left: 150px;
    }
 
 
 
-   /* TO-DO */
-   #to-do{
-      margin-left: 150px;
-   }
 
 
 

@@ -25,7 +25,7 @@
    <!-- INIZIO HEADER -->
    <header>
       <!-- MENU-FIXED -->
-      <section id="menu-fixed" class="d-flex  align-items-center  position-fixed">
+      <section id="menu-fixed" class="d-flex  align-items-center  position-fixed  z-1">
          <div class="container-fluid">  
 
                <div class="d-flex  align-items-center  justify-content-between">
@@ -120,14 +120,15 @@
       </section>
 
 
-      <!-- PROSSIME-CLASSI & F.A.Q. -->
 
-      <div class="">
-
-      <section id="prossime-classi">
+      <!-- MAIN-DASHBOARD -->
+      <section id="main-dashboard">
          <div class="container-fluid  d-flex  justify-content-center">
             <div class="row  w-100">
-               
+
+               <!-- PROSSIME-CLASSI & F.A.Q. -->
+
+               <!-- INIZIO 1° COL -->
                <div class="col-12  col-lg-8">
 
                   <div class="border  rounded-2">
@@ -236,9 +237,9 @@
                         </tbody>
                      </table>
                      <!-- FINE TABLE -->
-
                   </div>
                   <!-- FINE PROSSIME-CLASSI -->
+
 
                   <!-- F.A.Q. -->
                   <div class="border  rounded-2  mt-4">
@@ -279,22 +280,19 @@
                   <!-- FINE F.A.Q. -->
 
                </div>
+               <!-- FINE COL -->
 
-            </div>
-         </div>
-      </section>
-   
+        
+               
+               <!-- TO-DO & GRAPH -->
 
-      <!-- TO-DO & GRAPH -->
-      <section id="to-do" class="mt-4">
-         <div class="container-fluid  d-flex  justify-content-center">
-            <div class="row  w-100">
+               <!-- INIZIO 2° COL -->
+               <div class="col-12  mt-4  col-lg-4  mt-lg-0">
 
-               <div class="col-12  col-lg-4">
                   <!-- TO-DO -->
                   <div class="border  rounded-2">
                      <h2 class="fs-3  py-2  px-3  bg-light  border-bottom">Todo</h2>
-                     <!-- LIST CHECKBOX -->
+
                      <ul class="list-group  p-3">
 
                         <li class="list-group-item">
@@ -319,39 +317,47 @@
                         </li>
 
                      </ul>
-                     <!-- FINE LIST CHECKBOX -->
+
                   </div>
-                  
+         
 
 
 
+                  <!-- GRAPH -->
+                  <div class="border  rounded-2  p-3  my-4">
 
+                     <ul class="list-group">
+                        <li class="list-group-item">
+                           <img src="img/stats.jpeg" alt="">
+                           <h3 class="fs-4">Utenti attivi</h3>
+                           <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                        </li>
 
+                        <li class="list-group-item">
+                           <p>Gennaio: 1200</p>
+                        </li>
 
+                        <li class="list-group-item">
+                           <p>Febbraio: 800</p>
+                        </li>
 
+                        <li class="list-group-item">
+                           <p>Marzo: 1500</p>
+                        </li>
 
+                        <li class="list-group-item">
+                           <p class="py-2"><a href="">Visualizza report approfondito</a></p>
+                        </li>
+                      </ul>
 
-
-
+                  </div>
 
                </div>
+               <!-- FINE 2° COL -->
 
             </div>
          </div>
       </section>
-
-
-      </div>
-      
-
-
-      
-      
-      
-      
-      
-      
-      
       
    </main>
    
