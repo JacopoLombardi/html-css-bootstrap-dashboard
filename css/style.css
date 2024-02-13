@@ -116,14 +116,12 @@ img{
 }
 
 
-/* PROSSIME-CLASSI */
+/* PROSSIME-CLASSI & F.A.Q. */
 #prossime-classi{
    margin-left: 65px;
 }
 
-#prossime-classi .custom_container{
-   width: 99%
-}
+
 
 #prossime-classi .container-fluid{
    height: auto;
@@ -150,6 +148,9 @@ img{
 #prossime-classi table tbody td:nth-child(3){
    display: none;
 }
+
+
+
 
 
 
