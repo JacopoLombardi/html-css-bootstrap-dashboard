@@ -144,9 +144,12 @@ img{
    border: 2px solid rgb(115, 115, 115);
 }
 
-
-
-
+#prossime-classi table thead th:nth-child(2),
+#prossime-classi table tbody td:nth-child(2),
+#prossime-classi table thead th:nth-child(3),
+#prossime-classi table tbody td:nth-child(3){
+   display: none;
+}
 
 
 
@@ -180,6 +183,15 @@ img{
    }
 
 
+   /* PROSSIME-CLASSI */
+   /* TABLE */
+   #prossime-classi table thead tr th:nth-child(3),
+   #prossime-classi table tbody tr td:nth-child(3){
+      display: table-cell;
+   }
+
+
+
 
 
 
@@ -190,11 +202,20 @@ img{
 
 
 
+
+
+
+
 @media(min-width:992px){
 
    /* UTILITY PER LE APPARIZIONI SU DESK*/
    ._hidden_mobile_and_tablet{
       display: block !important;
+   }
+
+   #prossime-classi table thead tr th:nth-child(2),
+   #prossime-classi table tbody tr td:nth-child(2){
+      display: table-cell;
    }
 
 
