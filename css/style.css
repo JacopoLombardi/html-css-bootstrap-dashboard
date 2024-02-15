@@ -5,6 +5,10 @@ body{
    font-family: 'Roboto', sans-serif;
 }
 
+.container-fluid{
+   min-width: 300px;
+}
+
 img{
    max-width: 100%;
 }
@@ -16,6 +20,10 @@ p{
 
 
 
+
+/* ---------- 
+ MOBILE FIRST 
+ ----------- */
 
 
 
@@ -136,10 +144,24 @@ table tbody td:nth-child(3){
    display: none;
 }
 
+table thead tr th{
+   text-align: center;
+}
 
+table thead tr th:first-child,
+table tbody tr td:first-child{
+   text-align: left;
+}
 
+table tbody tr td{
+   width: 110px;
+   text-align: center;
+}
 
-
+table tbody tr td:first-child{
+   width: auto;
+   min-width: 120px;
+}
 
 
 
@@ -149,8 +171,10 @@ table tbody td:nth-child(3){
 
 /* -----------
    MEDIA QUERY 
-  -----------*/
+ -----------*/
 
+
+   /* RISOLUZIONI SOPRA IL MOBILE */
   @media(min-width:768px){
 
    /* UTILITY PER LE APPARIZIONI SU TABLET*/
@@ -181,7 +205,7 @@ table tbody td:nth-child(3){
 
 
 
-
+   /* RISOLUZIONI SOPRA IL DESK */
    @media(min-width:992px){
 
    /* UTILITY PER LE APPARIZIONI SU DESK*/
