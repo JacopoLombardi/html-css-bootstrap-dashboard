@@ -132,10 +132,6 @@ p{
    border-radius: 50%;
 }
 
-#main-dashboard ._icon i{
-   color: rgb(115, 115, 115);
-   border: 2px solid rgb(115, 115, 115);
-}
 
 table thead th:nth-child(2),
 table tbody td:nth-child(2),
@@ -275,7 +271,6 @@ table tbody tr td:first-child{
       margin-left: 150px;
    }
 
-   
 }
 
 
