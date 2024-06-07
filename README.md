@@ -1,3 +1,3 @@
 bootstrap-dashboard
 ===
-Es Boolean 12 Febbraio
+Creare una dashboard sfruttando interamente gli strumenti a disposizione con Bootstrap
